@@ -4,11 +4,15 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+A beginner in Programming and Data Science...
+
+This is the beginning of my developer journey. 
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+Nationality: Mexican & Colombian
+Cities Where I have Lived: Paris, Dubai, Boston, Toronto
+Interests: Technology, Exercise, Gaming, Coding, Art, Music, Tom Brady &  New England Patriots...
 
 ### Contact me
 
