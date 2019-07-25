@@ -11,8 +11,10 @@ This is the beginning of my developer journey.
 ### More Information
 
 Nationality: Mexican & Colombian
+
 Cities Where I have Lived: Paris, Dubai, Boston, Toronto
-Interests: Technology, Exercise, Gaming, Coding, Art, Music, Tom Brady &  New England Patriots...
+
+Interests: Technology, Exercise, Gaming, Coding, Art, Music, New England Patriots...
 
 ### Contact me
 
