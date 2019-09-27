@@ -1,3 +1,8 @@
+---
+layout: post
+title: Buying and Selling Stocks with Python
+---
+
 ![image](/assets/algoheader.png)
 
 *I built an automated algorithm using Quantative Trading that plays in the stock market and wins!*
@@ -60,11 +65,11 @@ Sentiment analysis and moving averages did not synchronize well with my model. U
 
 In other words, my model would rank assets by a combination of:
 
-•	Company liquidity by Z-score. (free cash flow yield)  
+**•	Company liquidity by Z-score. (free cash flow yield) ** 
 
-•	If the security is overpriced or underpriced in the market by Z-score. (earnings yield)  
+**•	If the security is overpriced or underpriced in the market by Z-score. (earnings yield)**
 
-•	How liquid the stock is. (AVG dollar volume) 
+**•	How liquid the stock is. (AVG dollar volume) **
 
 >A Z-score is the number of standard deviations from the mean a data 	point is. Given the fact that stocks fluctuate overtime, using Z-scores can help identify 	more valuable stocks to invest due to comparing stock price with its average. 
 
@@ -90,12 +95,15 @@ Using Quantopian’s back-testing platform, I rated my algorithms by Alpha, Beta
 ![image](/assets/oneyear.png)
 
 
+Takeaways:
 
+- My model had a return rate of **827.9%** within 9 years. 
 
+- From Sept 2018 - Sept 2019, it managed to get a **41% return rate**
 
+- In 6 years it managed to get a over **1000%** return before suffering from a market downcycle early 2016.
 
-
-
+- Beating the market with an Alpha of 0.37
 
 
   
