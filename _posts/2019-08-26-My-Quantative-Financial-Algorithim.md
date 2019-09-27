@@ -14,7 +14,7 @@ The book goes through how these traders went from having nothing to everything, 
 The majority of traders interviewed mentioned the emotional stress of having to deal with volatility, false market signals, listening to bad trading advice from coworkers and friends, animalistic impulses 
 
 
-
+									∙∙∙
 
 At a high-level view, this is how I completed my project:
 
@@ -22,7 +22,9 @@ At a high-level view, this is how I completed my project:
 
 Part one consisted of building a skeletal model with the help of Quantopian (A platform for testing financial algorithms using Python coding language) documentation. It was important that I used a homogeneous framework where I could easily iterate over multiple ideas without having to rebuild from scratch. Ensuring the technical infrastructure was robust would allow for a solid foundation, which would provide the impetus for future development.
 
-I constructed my model with a few key design principles in mind. In particular, the model must:
+I constructed my model with a few key design principles in mind. In particular, the model must:  
+
+
 •	Be fully automated with enough freedom to make smart decisions with limited human interaction.  
 
 •	Beat the S&P500 growth rate.  
