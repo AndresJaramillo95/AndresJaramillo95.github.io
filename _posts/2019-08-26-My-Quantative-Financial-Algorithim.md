@@ -1,3 +1,4 @@
+![My helpful screenshot](/assets/algoheader.png)
 *I built an automated algorithm using Quantative Trading that plays in the stock market and wins!*
 
 Three months ago I joined BrainStation, a data science boot camp in Toronto. Part capstone, part personal intrigue, I developed the algorithm knowing it would be a project I could continue to improve on and tweak after graduation. 
@@ -14,7 +15,6 @@ The book goes through how these traders went from having nothing to everything, 
 The majority of traders interviewed mentioned the emotional stress of having to deal with volatility, false market signals, listening to bad trading advice from coworkers and friends, animalistic impulses 
 
 
-									∙∙∙
 
 At a high-level view, this is how I completed my project:
 
@@ -76,7 +76,7 @@ With an initial starting capital of $10,000, I would back test my models on mult
 Using Quantopian’s back-testing platform, I rated my algorithms by Alpha, Beta, Sharpe ratio, and cumulative return rate. For each back-test, I would adjust variables (risk + portfolio parameters) to optimize my model and improve it one generation at a time. 
 
 
-# Final Model:
+## Final Model:
 
 ~ EMPTY FOR VISUALIZATIONS ~
 
