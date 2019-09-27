@@ -1,5 +1,4 @@
-![Quantative Model](AndresJaramillo95.github.io/assets/algoheader.png)
-
+![image](/assets/algoheader.png)
 
 *I built an automated algorithm using Quantative Trading that plays in the stock market and wins!*
 
