@@ -18,7 +18,7 @@ The author, Jack Schwager, interviews a dozen traders that he labels as “wizar
 
 The book goes through how these traders went from having nothing to everything, to nothing again, a vicious and draining cycle.
 
-The majority of traders interviewed mentioned the emotional stress of having to deal with volatility, false market signals, listening to bad trading advice from coworkers and friends, animalistic impulses 
+The majority of traders interviewed mentioned the emotional stress of having to deal with volatility, false market signals, listening to bad trading advice from coworkers / friends, and animalistic impulses that are filled with regret.
 
 
 
