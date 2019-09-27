@@ -4,18 +4,17 @@ title: About
 permalink: /about/
 ---
 
-A beginner in Programming and Data Science...
+Creative at heart ❤️, passionate for raising Digital Eco-Systems, curious about Machine Learning + AI 🧠, and a sucker for the crazy world of Big Data.
 
-This is the beginning of my developer journey. 
 
-### More Information
+### About Andres
 
 Nationality: Mexican & Colombian
 
-Cities Where I have Lived: Paris, Dubai, Boston, Toronto
+Where I've Lived: Paris 🇫🇷, Dubai 🇦🇪, Boston 🇺🇸, Toronto 🇨🇦
 
-Interests: Technology, Exercise, Gaming, Coding, Art, Music, New England Patriots...
+Interests: Technology, Coding, Exercise, Gaming, Art, Music, New England Patriots
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[anjaramillo1995@gmail.com](mailto:anjaramillo1995@gmail.com)
