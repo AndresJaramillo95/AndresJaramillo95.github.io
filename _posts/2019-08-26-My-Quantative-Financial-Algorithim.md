@@ -1,11 +1,11 @@
-# I built an automated algorithm using Quantative Trading that plays in the stock market and wins!
+*I built an automated algorithm using Quantative Trading that plays in the stock market and wins!*
 
 Three months ago I joined BrainStation, a data science boot camp in Toronto. Part capstone, part personal intrigue, I developed the algorithm knowing it would be a project I could continue to improve on and tweak after graduation. 
 
 Less than a year ago I was recommended a book by a friend who works in Private Equity.
 
-*Market Wizards: Interviews with Top Traders
-by Jack D. Schwager*
+***Market Wizards: Interviews with Top Traders
+by Jack D. Schwager***
 
 The author, Jack Schwager, interviews a dozen traders that he labels as “wizards”. They might as well be conjuring magic because they all started with relatively nothing and ended up becoming multi-millionaires and renown hedge fund managers. All of them shared a similar story, starting out young and eager to make money, but falling to the pitfalls of trading, because they “Did not know what they were doing.” 
 
@@ -13,7 +13,7 @@ The book goes through how these traders went from having nothing to everything, 
 
 The majority of traders interviewed mentioned the emotional stress of having to deal with volatility, false market signals, listening to bad trading advice from coworkers and friends, animalistic impulses 
 
-					           
+
 
 
 At a high-level view, this is how I completed my project:
@@ -23,11 +23,16 @@ At a high-level view, this is how I completed my project:
 Part one consisted of building a skeletal model with the help of Quantopian (A platform for testing financial algorithms using Python coding language) documentation. It was important that I used a homogeneous framework where I could easily iterate over multiple ideas without having to rebuild from scratch. Ensuring the technical infrastructure was robust would allow for a solid foundation, which would provide the impetus for future development.
 
 I constructed my model with a few key design principles in mind. In particular, the model must:
-•	Be fully automated with enough freedom to make smart decisions with limited human interaction.
-•	Beat the S&P500 growth rate. 
-•	Be unbiased to market emotions.
-•	Embed a portfolio strategy that will always see degrees of success during market fluctuations. 
+•	Be fully automated with enough freedom to make smart decisions with limited human interaction.  
+
+•	Beat the S&P500 growth rate.  
+
+•	Be unbiased to market emotions.  
+
+•	Embed a portfolio strategy that will always see degrees of success during market fluctuations.  
+
 •	Focus on a long-term, medium risk, algorithm that sees exponential growth within 2-4 years.  
+
 
 
 The algorithm is fed stock price via a data pipeline made with Python. To improve model efficiency and speed, I created a filter that produces a result of 500 potential assets in a `bucket’ available for purchase. The bucket, or universe, self-adjusts using daily market data. Interestingly, the universe’s size scales with the model’s effectiveness. 
@@ -50,11 +55,13 @@ Sentiment analysis and moving averages did not synchronize well with my model. U
 
 In other words, my model would rank assets by a combination of:
 
-•	Company liquidity by Z-score. (free cash flow yield)
-•	If the security is overpriced or underpriced in the market by Z-score. (earnings yield)
+•	Company liquidity by Z-score. (free cash flow yield)  
+
+•	If the security is overpriced or underpriced in the market by Z-score. (earnings yield)  
+
 •	How liquid the stock is. (AVG dollar volume) 
 
->Simply put, a Z-score is the number of standard deviations from the mean a data 	point is. Given the fact that stocks fluctuate overtime, using Z-scores can help identify 	more valuable stocks to invest due to comparing stock price with its average. 
+>A Z-score is the number of standard deviations from the mean a data 	point is. Given the fact that stocks fluctuate overtime, using Z-scores can help identify 	more valuable stocks to invest due to comparing stock price with its average. 
 
 
 Company and stock data was pulled from Morningstar and Quantopian API’s and fed through my data pipeline. Check out my Jupyter Notebook for a more in-depth analysis on how I formulated my strategy.  
@@ -85,7 +92,8 @@ Using Quantopian’s back-testing platform, I rated my algorithms by Alpha, Beta
 
   
 
-Conclusion: 
+
+## Conclusion: 
 
 I’m happy with my return rate on historic data, but that doesn’t predict how well my model will perform in the future. However, I am very optimistic that it will perform better than the average trader in efficiency and time-management. Building the algorithm was an exciting process from start to finish with touches of frustrations along the way. 
 
