@@ -1,4 +1,4 @@
-![image](/assets/algoheader.png)
+![image](/assets/algoheader.jpg)
 
 *I built an automated algorithm using Quantative Trading that plays in the stock market and wins!*
 
