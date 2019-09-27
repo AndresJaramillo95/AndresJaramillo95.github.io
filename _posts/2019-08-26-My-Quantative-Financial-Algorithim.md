@@ -19,6 +19,8 @@ The majority of traders interviewed mentioned the emotional stress of having to 
 
 At a high-level view, this is how I completed my project:
 
+![image](/assets/modeloutline.png)
+
 ## Part 1: Framework Design 
 
 Part one consisted of building a skeletal model with the help of Quantopian (A platform for testing financial algorithms using Python coding language) documentation. It was important that I used a homogeneous framework where I could easily iterate over multiple ideas without having to rebuild from scratch. Ensuring the technical infrastructure was robust would allow for a solid foundation, which would provide the impetus for future development.
@@ -72,6 +74,8 @@ Company and stock data was pulled from Morningstar and Quantopian API’s and fe
 
 ## Part 3: Testing and Optimizations.
 
+![image](/assets/algorithmtesting.png)
+
 With an initial starting capital of $10,000, I would back test my models on multiple windows of historic stock data. This is to test for over fitness, a problem with financial models. A key aspect for my model is how neutral it will be in the market. For this reason, it was also critical to test on historic data where the markets were bearish and bullish. Ultimately, the goal of my model is to be relatively successful throughout multiple phases of the market. 
 
 Using Quantopian’s back-testing platform, I rated my algorithms by Alpha, Beta, Sharpe ratio, and cumulative return rate. For each back-test, I would adjust variables (risk + portfolio parameters) to optimize my model and improve it one generation at a time. 
@@ -79,10 +83,11 @@ Using Quantopian’s back-testing platform, I rated my algorithms by Alpha, Beta
 
 ## Final Model:
 
-~ EMPTY FOR VISUALIZATIONS ~
+![image](/assets/bestmodel.png)
 
+![image](/assets/moredetail.png)
 
-
+![image](/assets/oneyear.png)
 
 
 
@@ -98,6 +103,8 @@ Using Quantopian’s back-testing platform, I rated my algorithms by Alpha, Beta
 
 ## Conclusion: 
 
+![image](/assets/modelevolution.png)
+
 I’m happy with my return rate on historic data, but that doesn’t predict how well my model will perform in the future. However, I am very optimistic that it will perform better than the average trader in efficiency and time-management. Building the algorithm was an exciting process from start to finish with touches of frustrations along the way. 
 
 The model is nowhere near perfect and needs more risk control. As for next steps, the model experienced a 60% loss in net returns in 2016. The algorithm borrowed too much money through leverage and purchased large volumes of energy stocks, which tanked around that time. I had to pay off my debts, but no one wanted to purchase those assets, so my model had to eat the losses before it could get rid of them. To prevent something like this happening in the future, I can simply add code to not invest in oil related companies in the future, but still purchase other energy stocks. 
@@ -107,7 +114,7 @@ Overall, this was a great introduction to Quantative trading using Python. I cre
 I would highly recommend anyone with an interest in learning more about Quantative trading to start with Quantopian.
 
 
-
+![image](/assets/nextsteps.png)
 
 
 
