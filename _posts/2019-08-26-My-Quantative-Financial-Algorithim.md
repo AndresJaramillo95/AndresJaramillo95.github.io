@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Buying and Selling Stocks with Python
+title: My Quantative Financial Algorithim
 ---
 
 ![image](/assets/algoheader.png)
@@ -33,19 +33,21 @@ Part one consisted of building a skeletal model with the help of Quantopian (A p
 I constructed my model with a few key design principles in mind. In particular, the model must:  
 
 
-•	Be fully automated with enough freedom to make smart decisions with limited human interaction.  
+- Be fully automated with enough freedom to make smart decisions with limited human interaction.  
 
-•	Beat the S&P500 growth rate.  
+- Beat the S&P500 growth rate.  
 
-•	Be unbiased to market emotions.  
+- Be unbiased to market emotions.  
 
-•	Embed a portfolio strategy that will always see degrees of success during market fluctuations.  
+- Embed a portfolio strategy that will always see degrees of success during market fluctuations.  
 
-•	Focus on a long-term, medium risk, algorithm that sees exponential growth within 2-4 years.  
+- Focus on a long-term, medium risk, algorithm that sees exponential growth within 2-4 years.  
 
 
 
 The algorithm is fed stock price via a data pipeline made with Python. To improve model efficiency and speed, I created a filter that produces a result of 500 potential assets in a `bucket’ available for purchase. The bucket, or universe, self-adjusts using daily market data. Interestingly, the universe’s size scales with the model’s effectiveness. 
+
+
 
 ## Part 2: Asset Investment Strategy 
 
@@ -65,11 +67,11 @@ Sentiment analysis and moving averages did not synchronize well with my model. U
 
 In other words, my model would rank assets by a combination of:
 
-**•	Company liquidity by Z-score. (free cash flow yield) ** 
+- **Company liquidity by Z-score.[Free Cash Flow Yield]** 
 
-**•	If the security is overpriced or underpriced in the market by Z-score. (earnings yield)**
+- **If the security is overpriced or underpriced in the market by Z-score. [Earnings yield]**
 
-**•	How liquid the stock is. (AVG dollar volume) **
+- **How liquid the stock is. [Average Dollar Volume]**
 
 >A Z-score is the number of standard deviations from the mean a data 	point is. Given the fact that stocks fluctuate overtime, using Z-scores can help identify 	more valuable stocks to invest due to comparing stock price with its average. 
 
