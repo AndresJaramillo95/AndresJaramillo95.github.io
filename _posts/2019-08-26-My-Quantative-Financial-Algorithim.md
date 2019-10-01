@@ -76,7 +76,7 @@ In other words, my model would rank assets by a combination of:
 >A Z-score is the number of standard deviations from the mean a data 	point is. Given the fact that stocks fluctuate overtime, using Z-scores can help identify 	more valuable stocks to invest due to comparing stock price with its average. 
 
 
-Company and stock data was pulled from Morningstar and Quantopian API’s and fed through my data pipeline. Check out my Jupyter Notebook for a more in-depth analysis on how I formulated my strategy.  
+Company and stock data was pulled from Morningstar and Quantopian API’s and fed through my data pipeline.	 [Check out my Jupyter Notebook](https://github.com/AndresJaramillo95/Automate-Stocks/blob/master/Stock_Trading_With_Python.ipynb) for a more in-depth analysis on how I formulated my strategy.  
 
 
 ## Part 3: Testing and Optimizations.
