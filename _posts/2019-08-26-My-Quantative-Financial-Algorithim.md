@@ -1,11 +1,11 @@
 ---
 layout: post
-title: My Quantative Financial Algorithim
+title: My Quantitative Financial Algorithim
 ---
 
 ![image](/assets/algoheader.png)
 
-*I built an automated algorithm using Quantative Trading that plays in the stock market and wins!*
+*I built an automated algorithm using Quantitative Trading that plays in the stock market and wins!*
 
 Three months ago I joined BrainStation, a data science boot camp in Toronto. Part capstone, part personal intrigue, I developed the algorithm knowing it would be a project I could continue to improve on and tweak after graduation. 
 
